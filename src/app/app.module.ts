@@ -12,7 +12,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    
     NavMenuComponent,
     ProductComponent,
     SignUpComponent
