@@ -1,2 +1,99 @@
 @import "../app.component.scss";
 
+
+
+main {
+    padding-top: 40px;
+
+
+#banner_one, #banner_two, #banner_three {
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+
+  h1{
+    font-size: 40pt;
+}
+
+ h2{
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+  a{
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner_two {
+    background-image: url('images/bg2.jpg');
+    background-position-y: -50px;
+}
+
+#banner_three {
+    background-image: url('images/bg3.jpg');
+    background-position-y: -100px;
+}
+}
+
+.category {
+    display: flex;
+
+
+.box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+
+    a { 
+        text-decoration: none;
+        font-size: 14pt;
+        padding-top: 20px;
+    }
+}
+
+
+#box1 {
+    background-image: url('images/card1.jpg');
+}
+
+#box2 {
+    background-image: url('images/card2.jpg');
+    color: black;
+}
+
+#box3 {
+    background-image: url('images/card3.jpg');
+}
+
+#box4 {
+    background-image: url('images/card4.jpg');
+    color: black;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+}
+}
+
