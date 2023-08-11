@@ -1,2 +1,94 @@
 @import "../app.component.scss";
 
+
+main {
+    padding-top: 40px;
+  }
+  
+  .banner {
+    background-size: cover;
+    height: 90vh;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  
+    h1 {
+      font-size: 40pt;
+    }
+  
+    h2 {
+      font-size: 26pt;
+      font-weight: lighter;
+    }
+  
+    a {
+      font-size: 16pt;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  
+  #banner_one {
+    background-image: url('https://i.ibb.co/ZGKYVGG/bg1.jpg');
+    background-position-y: -150px;
+  }
+  
+  #banner_two {
+    background-image: url('https://i.ibb.co/w02y4Lx/bg2.jpg');
+    background-position-y: -50px;
+  }
+  
+  #banner_three {
+    background-image: url('https://i.ibb.co/xjXDpq7/bg3.jpg');
+    background-position-y: -100px;
+  }
+  
+  .category {
+    display: flex;
+  
+    .box {
+      text-align: center;
+      height: 80vh;
+      width: 50%;
+      margin: 10px;
+      background-size: cover;
+      padding-top: 20px;
+      color: white;
+  
+      a {
+        text-decoration: none;
+        font-size: 14pt;
+        padding-top: 20px;
+      }
+    }
+  
+    #box1 {
+      background-image: url('https://i.ibb.co/6vd4fP6/card1.jpg');
+    }
+  
+    #box2 {
+      background-image: url('https://i.ibb.co/zZdsVWw/card2.jpg');
+      color: black;
+  
+      .label {
+        color: red;
+        font-size: 14pt;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+    }
+  
+    #box3 {
+      background-image: url('https://i.ibb.co/Y2B7SRs/card3.jpg');
+    }
+  
+    #box4 {
+      background-image: url('https://i.ibb.co/gwmBS1H/card4.jpg');
+      color: black;
+    }
+  }
+  
+  a:hover {
+    text-decoration: underline !important;
+  }
